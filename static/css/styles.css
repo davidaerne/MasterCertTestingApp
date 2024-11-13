@@ -1,0 +1,10 @@
+/* Custom CSS */
+body {
+    background-color: #f8f9fa;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

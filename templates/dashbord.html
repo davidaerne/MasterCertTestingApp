@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="mt-4">Hello, {{ user.username }}!</h2>
+<div class="card-deck mt-4">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Interactive Lessons</h5>
+            <p class="card-text">Engage with multimedia content and learn at your own pace.</p>
+            <a href="#" class="btn btn-primary">Start Learning</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Practice Tests</h5>
+            <p class="card-text">Test your knowledge with a variety of practice tests.</p>
+            <a href="#" class="btn btn-primary">Take a Test</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Discussion Forums</h5>
+            <p class="card-text">Join discussions and connect with other learners.</p>
+            <a href="#" class="btn btn-primary">Join Now</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
